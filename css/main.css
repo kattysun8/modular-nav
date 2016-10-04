@@ -27,16 +27,44 @@ body {
   width: 100%;
 }
 
-.current {
-  border-radius: 0;
-  color: 000;
-  background-color: #0074d9;
-}
-
-.masthead {
+.section-dark {
   background-color: #e2e2e2;
 }
 
 li {
   display: inline-block;
+}
+
+a,
+a:visited {
+  color:#0074d9;
+  text-decoration: none;
+}
+
+a:hover,
+a:focus,
+.current,
+.current:visited {
+  background-color: #0074d9;
+  color: #fff;
+}
+
+h1 {
+  text-align: center;
+}
+
+ul {
+  text-align: center;
+}
+
+@media only screen and (min-width: 38em) {
+
+  h1 {
+    text-align: left;
+  }
+
+  ul {
+    text-align: right;
+  }
+
 }
