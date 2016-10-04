@@ -27,10 +27,16 @@ body {
   width: 100%;
 }
 
-.grid {
-  overflow: hidden;
+.current {
+  border-radius: 0;
+  color: 000;
+  background-color: #0074d9;
 }
 
-.unit {
-  float: left;
+.masthead {
+  background-color: #e2e2e2;
+}
+
+li {
+  display: inline-block;
 }
